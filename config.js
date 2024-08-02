@@ -3,8 +3,8 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
 //═══════[Required Variables]════════\\
-global.audio= "" ;  
-global.video= "" ;
+global.audio= "www.youtube.com" ;  
+global.video= "www.youtube.com" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
 global.email ="saimsamsun789@gmail.com"
@@ -76,7 +76,7 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "GIMAA-ᴍᴅ",
+  botname : process.env.BOT_NAME  || "GIMAA-MD",
   ownername:process.env.OWNER_NAME|| "Thisara",
 
 
