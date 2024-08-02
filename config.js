@@ -3,8 +3,8 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
 //═══════[Required Variables]════════\\
-global.audio= "www.youtube.com" ;  
-global.video= "www.youtube.com" ;
+global.audio= "" ;  
+global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
 global.email ="saimsamsun789@gmail.com"
@@ -92,7 +92,7 @@ module.exports = {
 
 
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "Gimaa"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "suhail"  ).toUpperCase(),
 
 
 
